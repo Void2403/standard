@@ -24,7 +24,7 @@ void mergesort(int l,int r){
 int main(){
     scanf("%d",&n);
     for (int i=1;i<=n;i++) scanf("%d",&a[i]);
-    mergesort(1,n);
+    mergesort(1,n); 
     for (int i=1;i<=n;i++) printf("%d ",a[i]);//从大到小
     printf("%lld",ans);//逆序对个数
 }
